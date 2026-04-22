@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules
+
+# Jest coverage
+coverage
+
+# Text editors configurations
+.vscode
+.rgignore
+
+# Env file
+.env*.local
+.env
+/services/app/.env
+/services/app/.env.local
+/services/app/.env.development.local
+/services/app/.env.test.local
+/services/app/.env.production.local
+/services/app/.env.development
+/services/app/.env.test
+/services/app/.env.production
+/apps/web/.env
+/apps/web/.env.local
+/apps/web/.env.development.local
+/apps/web/.env.test.local
+/apps/web/.env.production.local
+/apps/web/.env.development
+/apps/web/.env.test
+/apps/web/.env.production
+/services/queue/.env
+/services/queue/.env.local
+/services/queue/.env.development.local
+/services/queue/.env.test.local
+/services/queue/.env.production.local
+/services/queue/.env.development
+/services/queue/.env.test
+/services/queue/.env.production
+
+# report files
+report*.json
+
+# yarn
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# uploads folder
+~
+
+# OS specific files
+.DS_Store
+
+# Dev tools files
+.eslintcache
+
+.npmrc
+
+# Jest files
+globalConfig.json
+
+# CourseLit files
+domains_to_delete.txt
+.codex

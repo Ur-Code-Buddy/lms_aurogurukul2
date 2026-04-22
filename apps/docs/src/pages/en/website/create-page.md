@@ -1,0 +1,23 @@
+---
+title: Create a page
+description: Create a page
+layout: ../../../layouts/MainLayout.astro
+---
+
+You can create custom pages in your Aurogurukul school. These pages can be used for various purposes, such as landing pages, email list builders, etc.
+
+## Creating a page
+
+1. Go to your school's dashboard and click on `Pages` in the left sidebar.
+2. Click on the `New page` button in the top right corner.
+3. On the `New page` screen, enter a name for your page. The slug will update automatically based on the name.
+4. Click on `Continue`.
+
+    ![New page screen](/assets/pages/new-page-screen.png)
+
+    You will be taken to the [page builder](/en/website/edit) where you can start adding blocks to your page.
+
+## Next step
+
+[Learn about sales pages](/en/website/sales-pages).
+

@@ -1,0 +1,32 @@
+# Aurogurukul LMS — run from the repository root:
+#
+#   docker compose up --build
+#
+# Environment variables are read from `./.env` in this directory (never commit it;
+# it is listed in `.gitignore`). Docker Compose also uses `.env` for variable
+# substitution in this file.
+#
+# MongoDB is expected to be **external** (e.g. MongoDB Atlas): set DB_CONNECTION_STRING in `.env`.
+#
+# The web app listens on **3000** inside the container and is published at:
+#   http://localhost:3000
+
+name: aurogurukul
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: services/app/Dockerfile
+        image: aurogurukul-lms:local
+        container_name: aurogurukul-web
+        env_file:
+            - .env
+        environment:
+            NODE_ENV: production
+            # Next.js standalone; must match the published port mapping below
+            PORT: "3000"
+            HOSTNAME: "0.0.0.0"
+        ports:
+            - "3000:3000"
+        restart: unless-stopped
