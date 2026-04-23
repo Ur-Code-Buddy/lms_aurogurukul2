@@ -7,13 +7,13 @@ export const baseOptions: BaseLayoutProps = {
             <>
                 <Image
                     src="/favicon.svg"
-                    alt="CourseLit logo"
+                    alt="Aurogurukul logo"
                     width={24}
                     height={24}
                 />
-                CourseLit Docs
+                Aurogurukul Docs
             </>
         ),
     },
-    githubUrl: "https://github.com/codelitdev/courselit",
+    githubUrl: "https://github.com",
 };

@@ -70,7 +70,7 @@ export default function Page() {
                     </CardContent>
                     <CardFooter>
                         <a
-                            href="https://discord.com/invite/GR4bQsN"
+                            href="https://discord.com/invite/"
                             target="_blank"
                         >
                             <Button2 variant="secondary">Open Discord</Button2>
@@ -89,7 +89,7 @@ export default function Page() {
                     </CardContent>
                     <CardFooter>
                         <a
-                            href="https://discord.com/channels/727630561895514212/1244954638747303946"
+                            href="https://discord.com/"
                             target="_blank"
                         >
                             <Button2 variant="secondary">Post an issue</Button2>

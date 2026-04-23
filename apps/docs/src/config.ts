@@ -1,5 +1,5 @@
 export const SITE = {
-    title: "CourseLit Docs",
+    title: "Aurogurukul Docs",
     description: "Sell courses, digital downloads on your own website",
     defaultLanguage: "en_US",
 };
@@ -7,9 +7,9 @@ export const SITE = {
 export const OPEN_GRAPH = {
     image: {
         src: "/favicon.svg",
-        alt: "CourseLit open source learning management system logo",
+        alt: "Aurogurukul open source learning management system logo",
     },
-    twitter: "courselit",
+    twitter: "Aurogurukul",
 };
 
 // This is the type of the frontmatter you put in the docs markdown files.
@@ -28,9 +28,9 @@ export const KNOWN_LANGUAGES = {
 } as const;
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/codelitdev/courselit/tree/main/apps/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/`;
 
-export const COMMUNITY_INVITE_URL = `https://discord.com/invite/GR4bQsN`;
+export const COMMUNITY_INVITE_URL = `https://discord.com/invite/`;
 
 // See "Algolia" section of the README for more information.
 export const ALGOLIA = {
@@ -46,7 +46,7 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
     en: {
         "Getting started": [
-            { text: "What is CourseLit", link: "en/introduction" },
+            { text: "What is Aurogurukul", link: "en/introduction" },
             { text: "Our vision", link: "en/vision" },
             { text: "Features", link: "en/features" },
         ],

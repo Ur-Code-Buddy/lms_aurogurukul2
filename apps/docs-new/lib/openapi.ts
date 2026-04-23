@@ -18,8 +18,8 @@ export const openapi = createOpenAPI({
                 ...spec,
                 servers: [
                     {
-                        url: "https://school.courselit.app",
-                        description: "CourseLit school origin",
+                        url: "https://school.aurogurukul.app",
+                        description: "Aurogurukul school origin",
                     },
                 ],
             },

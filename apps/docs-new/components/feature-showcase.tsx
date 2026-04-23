@@ -98,7 +98,7 @@ const items: FeatureItem[] = [
     {
         title: "Developer API",
         description:
-            "Integrate with CourseLit programmatically using API keys and the REST user API.",
+            "Integrate with Aurogurukul programmatically using API keys and the REST user API.",
         href: "/developers/introduction",
         icon: Code2,
         accent: "slate",

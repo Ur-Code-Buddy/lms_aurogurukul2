@@ -78,7 +78,7 @@ export async function generateMetadata(props: {
     if (params.slug?.join("/") === "api-reference") {
         return {
             title: "API Reference",
-            description: "Interactive REST API documentation for CourseLit.",
+            description: "Interactive REST API documentation for Baivab.",
         };
     }
 

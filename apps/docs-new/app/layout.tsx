@@ -6,10 +6,10 @@ import { DocsProvider } from "@/components/docs-provider";
 
 export const metadata: Metadata = {
     title: {
-        default: "CourseLit Docs",
-        template: "%s | CourseLit Docs",
+        default: "Baivab Docs",
+        template: "%s | Baivab Docs",
     },
-    description: "Documentation for CourseLit.",
+    description: "Documentation for Baivab.",
 };
 
 const posthogKey = process.env.POSTHOG_KEY;
