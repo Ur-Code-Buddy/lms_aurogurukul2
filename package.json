@@ -19,6 +19,7 @@
         "lint": "eslint packages apps/docs apps/docs-new apps/web --quiet",
         "prettier": "prettier --write packages apps docs *.md",
         "build": "pnpm -r run build",
+        "build:packages": "pnpm -r --filter './packages/*' run build",
         "clean": "pnpm -r run clean",
         "ci:publish": "pnpm publish -r --no-git-checks",
         "dev": "pnpm --filter @courselit/web dev",
@@ -69,6 +70,19 @@
             "prosemirror-view": "^1.34.2",
             "@types/react": "18.3.7",
             "@types/react-dom": "18.3.0"
-        }
+        },
+        "onlyBuiltDependencies": [
+            "@scarf/scarf",
+            "@tree-sitter-grammars/tree-sitter-yaml",
+            "core-js-pure",
+            "esbuild",
+            "mongodb-memory-server",
+            "msgpackr-extract",
+            "protobufjs",
+            "sharp",
+            "tree-sitter",
+            "tree-sitter-json",
+            "unrs-resolver"
+        ]
     }
 }
