@@ -19,14 +19,17 @@ export const homePageTemplate = [
                         content: [
                             {
                                 type: "text",
-                                text: "This is the default page created for you by Aurogurukul. Customize this further from the ",
+                                text: "Welcome to ",
                             },
                             {
                                 type: "text",
                                 marks: [{ type: "bold" }],
-                                text: "Dashboard > Pages > Homepage > Edit",
+                                text: "Aurogurukul",
                             },
-                            { type: "text", text: "." },
+                            {
+                                type: "text",
+                                text: "—your hub for courses, materials, and progress in one place. Sign in to resume learning, or browse the catalog to enroll.",
+                            },
                         ],
                     },
                 ],
@@ -44,7 +47,7 @@ export const homePageTemplate = [
         deleteable: true,
         shared: false,
         settings: {
-            title: "Your Eye Catching Hero Statement Goes Here",
+            title: "Learn with purpose. Move at your pace.",
             description: {
                 type: "doc",
                 content: [
@@ -52,25 +55,21 @@ export const homePageTemplate = [
                         type: "paragraph",
                         attrs: { dir: null, ignoreBidiAutoUpdate: null },
                         content: [
-                            { type: "text", text: "You can write " },
                             {
                                 type: "text",
-                                marks: [
-                                    { type: "bold" },
-                                    { type: "underline" },
-                                ],
-                                text: "rich text",
+                                text: "Explore courses designed for real outcomes—organized modules, practical focus, and support when you need it. ",
                             },
                             {
                                 type: "text",
-                                text: " here and also show images/videos/youtube videos alongside text, as shown here.",
+                                marks: [{ type: "bold" }],
+                                text: "Start with a program that fits your goals.",
                             },
                         ],
                     },
                 ],
             },
             buttonAction: "/products",
-            buttonCaption: "Ask user to take action",
+            buttonCaption: "Browse courses",
             youtubeLink: "https://www.youtube.com/watch?v=7OP2bU9RWVE",
             alignment: "right",
             style: "normal",
@@ -89,7 +88,7 @@ export const homePageTemplate = [
             pageId: "homepage",
             type: "site",
             entityId: "demo",
-            title: "Showcase your features",
+            title: "What you get here",
             description: {
                 type: "doc",
                 content: [
@@ -99,7 +98,7 @@ export const homePageTemplate = [
                         content: [
                             {
                                 type: "text",
-                                text: "Using this optional text, you can massage your messaging further.",
+                                text: "Everything is built around clarity: what to study next, how you are doing, and where to get help.",
                             },
                         ],
                     },
@@ -108,7 +107,7 @@ export const homePageTemplate = [
             headerAlignment: "left",
             items: [
                 {
-                    title: "Feature 1",
+                    title: "Clear learning paths",
                     description: {
                         type: "doc",
                         content: [
@@ -121,17 +120,17 @@ export const homePageTemplate = [
                                 content: [
                                     {
                                         type: "text",
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                                        text: "Lessons and materials are grouped so you always know the next step—no guesswork, no clutter.",
                                     },
                                 ],
                             },
                         ],
                     },
-                    buttonCaption: "Call to action",
+                    buttonCaption: "See programs",
                     buttonAction: "/products",
                 },
                 {
-                    title: "Feature 2",
+                    title: "Learn on your schedule",
                     description: {
                         type: "doc",
                         content: [
@@ -144,17 +143,17 @@ export const homePageTemplate = [
                                 content: [
                                     {
                                         type: "text",
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                                        text: "Study when it works for you. Pick up where you left off on any device with your progress saved.",
                                     },
                                 ],
                             },
                         ],
                     },
-                    buttonCaption: "Call to action 2",
+                    buttonCaption: "View courses",
                     buttonAction: "/products",
                 },
                 {
-                    title: "Feature 3",
+                    title: "Progress you can trust",
                     description: {
                         type: "doc",
                         content: [
@@ -167,13 +166,13 @@ export const homePageTemplate = [
                                 content: [
                                     {
                                         type: "text",
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                                        text: "Track completion and milestones so you stay motivated and can celebrate wins along the way.",
                                     },
                                 ],
                             },
                         ],
                     },
-                    buttonCaption: "Call to action 3",
+                    buttonCaption: "Get started",
                     buttonAction: "/products",
                 },
             ],
@@ -191,7 +190,7 @@ export const homePageTemplate = [
             pageId: "homepage",
             type: "site",
             entityId: "demo",
-            title: "Frequently Asked Questions",
+            title: "Frequently asked questions",
             description: {
                 type: "doc",
                 content: [
@@ -201,7 +200,7 @@ export const homePageTemplate = [
                         content: [
                             {
                                 type: "text",
-                                text: "You can use this section to address the common questions asked by your audience.",
+                                text: "Quick answers about enrolling, access, and how learning works on this site.",
                             },
                         ],
                     },
@@ -210,7 +209,7 @@ export const homePageTemplate = [
             headerAlignment: "center",
             items: [
                 {
-                    title: "Question 1",
+                    title: "How do I enroll in a course?",
                     description: {
                         type: "doc",
                         content: [
@@ -223,7 +222,7 @@ export const homePageTemplate = [
                                 content: [
                                     {
                                         type: "text",
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                                        text: "Open the course catalog, choose a program, and follow the checkout or enrollment steps. After that, your lessons appear in your account whenever you sign in.",
                                     },
                                 ],
                             },
@@ -231,7 +230,7 @@ export const homePageTemplate = [
                     },
                 },
                 {
-                    title: "Question 2",
+                    title: "How long do I have access?",
                     description: {
                         type: "doc",
                         content: [
@@ -244,7 +243,7 @@ export const homePageTemplate = [
                                 content: [
                                     {
                                         type: "text",
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                                        text: "Access depends on how each course is set up—some are lifetime, others follow a fixed term. The course page or receipt will spell out what applies to your purchase.",
                                     },
                                 ],
                             },
@@ -252,7 +251,7 @@ export const homePageTemplate = [
                     },
                 },
                 {
-                    title: "Question 3",
+                    title: "Who can I contact for help?",
                     description: {
                         type: "doc",
                         content: [
@@ -265,7 +264,7 @@ export const homePageTemplate = [
                                 content: [
                                     {
                                         type: "text",
-                                        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                                        text: "Use the site’s support or contact options, or reply to your enrollment email. The school running this site can answer billing, access, and content questions.",
                                     },
                                 ],
                             },
@@ -281,6 +280,11 @@ export const homePageTemplate = [
         deleteable: true,
         shared: false,
         settings: {
+            title: "Stay in the loop",
+            subtitle:
+                "Occasional updates on new programs, cohorts, and resources—no spam.",
+            btnText: "Subscribe",
+            alignment: "center",
             // backgroundColor: "#f4f4f5",
         },
     },
@@ -303,7 +307,7 @@ export const homePageTemplate = [
                             {
                                 type: "text",
                                 marks: [{ type: "bold" }],
-                                text: "There's more!",
+                                text: "Keep building your skills",
                             },
                         ],
                     },
@@ -332,7 +336,7 @@ export const homePageTemplate = [
                         content: [
                             {
                                 type: "text",
-                                text: "There are many more widgets for you to use in our page builder. Start building!",
+                                text: "Our catalog grows as new programs and sessions launch. Visit the course list for the latest offerings, or subscribe above for announcements from the school.",
                             },
                         ],
                     },
