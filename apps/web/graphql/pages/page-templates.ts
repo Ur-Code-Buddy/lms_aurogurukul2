@@ -70,7 +70,7 @@ export const homePageTemplate = [
             },
             buttonAction: "/products",
             buttonCaption: "Browse courses",
-            youtubeLink: "https://www.youtube.com/watch?v=7OP2bU9RWVE",
+            youtubeLink: "https://www.youtube.com/watch?v=VkBnNxneA_A&list=PLU9il4c3BBUU6iPLgqjXXtn9apt69Pz9S",
             alignment: "right",
             style: "normal",
             mediaRadius: 2,
