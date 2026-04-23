@@ -38,6 +38,11 @@ export const createExtensions = ({
 }: ExtensionOptions = {}): Extensions => [
     StarterKit.configure({
         codeBlock: false,
+        // These are also registered below with custom config / Heading.extend
+        link: false,
+        dropcursor: false,
+        gapcursor: false,
+        heading: false,
     }),
     Placeholder.configure({
         placeholder: placeholder || "Write something…",
